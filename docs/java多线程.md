@@ -30,10 +30,11 @@
   ~~~~
 
 ~~~~
+示列出处：https://www.cnblogs.com/mengxinJ/p/13797851.html#_label2_3_3
 public class lock2{
-static lock2 ll=new lock2();
-ReentrantLock lock=new ReentrantLock();
-Condition cc=lock.newCondition();
+   static lock2 ll=new lock2();
+   ReentrantLock lock=new ReentrantLock();
+   Condition cc=lock.newCondition();
 
     public static void main(String[] args) {
         new Thread(new qq()).start();
