@@ -1,13 +1,3 @@
-1. [Java多线程学习（一）Java多线程入门]
-2. [Java多线程学习（二）synchronized关键字（1）]
-3.  [Java多线程学习（二）synchronized关键字（2）]
-4. [Java多线程学习（三）volatile关键字]
-5. [Java多线程学习（四）等待/通知（wait/notify）机制]
-6. [Java多线程学习（五）线程间通信知识点补充]
-7. [Java多线程学习（六）Lock锁的使用]
-8. [Java多线程学习（七）并发编程中一些问题]
-9. [Java多线程学习（八）线程池与Executor 框架]
-
 ###  Java多线程synchronized/Lock锁
 ~~~~
 1.sync是java关键字，属于jvm层面，底层实现是monitor；
