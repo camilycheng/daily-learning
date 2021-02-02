@@ -20,6 +20,18 @@ Thread 类其实也是实现的runnable
 两种方式都需要重写run(),将线程要执行的逻辑声明在run()中。
 
 
+###线程的生命周期
+新建-new Thread（）；  
+就绪-调用start();  
+运行  
+阻塞  
+死亡
+
+![thread-1](img/thread-1.png)
+
+
+
+
 ###  Java多线程synchronized/Lock锁
 ~~~~
 1.sync是java关键字，属于jvm层面，底层实现是monitor；
